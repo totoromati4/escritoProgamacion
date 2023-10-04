@@ -25,7 +25,7 @@ class TareaTest extends TestCase
 
     public function test_CrearUnatareaTest(){
         $response = $this->post('/api/tarea',[
-            'titulo' => 'hola',
+            "titulo" => 'hola',
             "contenido" => "queso",
             "estado" => "ayuda",
             "autor" => "yo"
